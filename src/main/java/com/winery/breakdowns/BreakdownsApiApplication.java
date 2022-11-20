@@ -1,4 +1,4 @@
-package com.winery.breakdowns.api;
+package com.winery.breakdowns;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class BreakdownsApiApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(BreakdownsApiApplication.class, args);
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(BreakdownsApiApplication.class, args);
+  }
 
 }
